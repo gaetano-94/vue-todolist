@@ -23,6 +23,7 @@ createApp({
           done: false,
         },
       ],
+      newTodoText: '',
     };
   },
   methods: {
