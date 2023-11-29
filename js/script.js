@@ -27,6 +27,10 @@ createApp({
     };
   },
   methods: {
+    checkStatus(check) {
+      if (check === true) return 'text-decoration-line-through';
+    },
+
     removeTodo: function (index) {
       this.todoObj.splice(index, 1);
     },
